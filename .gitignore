@@ -23,3 +23,5 @@ erl_crash.dump
 n26-*.tar
 
 .elixir_ls
+.DS_Store
+.vscode

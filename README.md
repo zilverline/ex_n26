@@ -6,8 +6,7 @@ Based on the unofficial API documentation courtesy of [Rots/n26-api](https://git
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `n26` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `n26` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -29,7 +28,7 @@ iex(1)> token = N26.Auth.get_token("info@example.com", "password")
 
 iex(2)> token |> N26.Account.me
 %{
-  "birthDate" => 563932800000,
+  "birthDate" => 563932100000,
   "email" => "info@example.com",
   "firstName" => "John",
   "gender" => "MALE",
