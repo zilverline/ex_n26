@@ -2,8 +2,6 @@
 
 N26 API client for Elixir.
 
-Based on the unofficial API documentation courtesy of [Rots/n26-api](https://github.com/Rots/n26-api)
-
 ## Installation
 
 The package can be installed by adding `n26` to your list of dependencies in `mix.exs`:
@@ -16,9 +14,7 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/n26](https://hexdocs.pm/n26).
+Documentation is published on HexDocs and can be found at [https://hexdocs.pm/n26](https://hexdocs.pm/n26).
 
 ## Usage
 
@@ -42,3 +38,7 @@ iex(2)> token |> N26.Account.me
   "transferWiseTermsAccepted" => false
 }
 ```
+
+## Credits
+
+Based on the unofficial API documentation courtesy of [Rots/n26-api](https://github.com/Rots/n26-api)
