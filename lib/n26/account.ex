@@ -1,4 +1,8 @@
 defmodule N26.Account do
+  @moduledoc """
+  Account related endpoints.
+  """
+
   import N26.API
 
   def me(token), do: get(token, "me")

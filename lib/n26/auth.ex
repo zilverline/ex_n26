@@ -1,4 +1,8 @@
 defmodule N26.Auth do
+  @moduledoc """
+  N26 API Authentication.
+  """
+
   import N26.API
 
   def get_token(username, password) do

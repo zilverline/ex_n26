@@ -1,4 +1,8 @@
 defmodule N26.Transactions do
+  @moduledoc """
+  Transaction related endpoints.
+  """
+
   import N26.API
 
   def transactions(token), do: get(token, "smrt/transactions")
